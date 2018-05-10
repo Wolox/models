@@ -17,11 +17,13 @@
 from setuptools import find_packages
 from setuptools import setup
 
+REQUIRED_PACKAGES = ['pycocotools>=1.0']
 
 setup(
     name='slim',
     version='0.1',
     include_package_data=True,
+    install_requires=REQUIRED_PACKAGES,
     packages=find_packages(),
     description='tf-slim',
 )
