@@ -52,7 +52,7 @@ flags.DEFINE_boolean('ignore_difficult_instances', False, 'Whether to ignore '
                      'difficult instances')
 FLAGS = flags.FLAGS
 
-SETS = ['train', 'val', 'trainval', 'test']
+SETS = ['train', 'val', 'trainval', 'test', 'eval']
 YEARS = ['VOC2012']
 
 
